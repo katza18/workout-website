@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-    height: 3em;
+    height: 3rem;
     width: 100%;
     background-color: rgb(68, 68, 68);
     display: flex;
@@ -21,4 +21,37 @@ a {
     text-decoration: none;
     color: white;
     padding-right: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+table {
+    width: 85%;
+    height: 20%;
+    border: solid rgb(68, 68, 68, 0.75);
+    border-radius: 6px;
+    padding: 1rem 0;    
+}
+
+tr {
+    text-align: center;
+}
+tr input[type="submit"] {
+    margin-top: 0;
+}
+
+input[type="submit"] {
+    margin-top: 3rem;
+    width: 8em;
+    padding: 0.5em 0;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border-radius: 6px;
+    border: none;
 }
